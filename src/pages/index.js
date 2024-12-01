@@ -9,18 +9,15 @@ const GlobalStyle = createGlobalStyle`
     *{
         margin: 0;
         padding: 0;
+        font-family: "MuseoModerno", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
     }
     h2{
-        font-family: "MuseoModerno", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 700;
-        font-style: normal;
     }
     h3{
-        font-family: "MuseoModerno", sans-serif;
-        font-optical-sizing: auto;
         font-weight: 500;
-        font-style: normal;
     }
 `
 export default class IndexPage extends React.Component {
