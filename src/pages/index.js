@@ -1,7 +1,8 @@
 import React from 'react'
 import styled, {createGlobalStyle} from "styled-components";
 
-import Promo from "./modules/Promo";
+import Promo from "./modules/promo";
+import Advantages from './modules/advantages'
 
 const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,500,700;1,500,700&display=swap');
@@ -26,6 +27,8 @@ export default class IndexPage extends React.Component {
             <>
                 <GlobalStyle/>
                 <Promo/>
+                <Advantages/>
+
             </>
         )
     }
