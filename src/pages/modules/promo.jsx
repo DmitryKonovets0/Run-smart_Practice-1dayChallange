@@ -49,6 +49,12 @@ const PromoSection = styled.section`
     text-align: center;
     font-weight: 500;
     color: #fff;
+    cursor: pointer;
+    &:hover {
+        content: '';
+        border: solid 1px #fff;
+        transition: all 0.1s;
+    }
 `, MainWrapper = styled.div`
     display: flex;
     flex-direction: column;
@@ -89,6 +95,12 @@ const PromoSection = styled.section`
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
+    cursor: pointer;
+    &:hover {
+        content: '';
+        border: solid 1px #fff;
+        transition: all 0.1s;
+    }
 `, Link = styled.h3`
     font-size: 16px;
     color: #fff;
